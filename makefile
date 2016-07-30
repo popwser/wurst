@@ -1,6 +1,9 @@
 CPP=src/main.cpp
-CPP_SRC=$(CPP_MAC)
 
-all:
+mac:
 	echo "Compiled for mac"
-	g++ $(CPP_SRC) -o bin/wurst
+	g++ $(CPP) -o bin/wurst
+
+win:
+	echo "Compiled for win"
+	g++ $(CPP) -o bin/wurst.exe

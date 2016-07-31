@@ -1,8 +1,8 @@
-CPP=src/main.cpp
+CPP=src/main.cpp src/compiler.cpp src/data.cpp src/command.cpp src/commands/command_print.cpp
 
 mac:
 	echo "Compiled for mac"
-	g++ $(CPP) -o bin/wurst
+	g++ -std=c++11 $(CPP) -o bin/wurst
 
 win:
 	echo "Compiled for win"

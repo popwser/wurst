@@ -13,7 +13,7 @@ int main(int argc, char* argv[]) {
 
   //"print: "hello ", "world"
   Compiler::init();
-  string testLine = "print: -s[hello world]\n";
+  string testLine = "print: -i[10000]";
 
   Compiler::compileLine(testLine, 0);
 

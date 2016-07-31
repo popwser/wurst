@@ -11,6 +11,6 @@ CommandPrint::CommandPrint()
 
 void CommandPrint::execute(vector<Data> data) {
   for(int i=0;i<data.size();i++) {
-    cout << data[i].getDataOverride();
+    cout << data[i].getDataOverride() << endl;
   }
 }
